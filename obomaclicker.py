@@ -10,7 +10,10 @@ play = True
 clock = pygame.time.Clock()
 
 class Oboma:
-  def __init__()
+  def __init__(self, x, y, image):
+    self.x = x
+    self.y = y
+    self.image = (self.x, self.y, 40, 40)
 
 
 while play:
@@ -19,5 +22,4 @@ while play:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       play = False
-      
       
